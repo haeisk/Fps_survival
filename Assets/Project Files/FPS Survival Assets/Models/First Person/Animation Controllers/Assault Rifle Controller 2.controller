@@ -21,7 +21,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 22a69c501c9b54148bc4acb2089563a2, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7fbedef95b2014c638960dc59c9ddb39, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -48,7 +48,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 451ab1334cf464cdd9204f9ac809f5b6, type: 2}
+  m_Motion: {fileID: 7400000, guid: af4ce179df58c4a2ea5b731626bfb4f3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -60,7 +60,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Axe Controller
+  m_Name: Assault Rifle Controller 2
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Shoot
@@ -131,7 +131,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6d0368664035441feaf85240c901d614, type: 2}
+  m_Motion: {fileID: 7400000, guid: c58455667ac764bf29a99f2e42828839, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

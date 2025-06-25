@@ -21,7 +21,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 22a69c501c9b54148bc4acb2089563a2, type: 2}
+  m_Motion: {fileID: 7400000, guid: ea4ee1538f05642cab2e0a3318ec884b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -48,7 +48,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 451ab1334cf464cdd9204f9ac809f5b6, type: 2}
+  m_Motion: {fileID: 7400000, guid: d8bb67c2adfa144ccb96f76c3949723c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -60,7 +60,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Axe Controller
+  m_Name: Shotgun Controller 1
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Shoot
@@ -131,7 +131,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6d0368664035441feaf85240c901d614, type: 2}
+  m_Motion: {fileID: 7400000, guid: 95315c53a545847d4af7ba95f8c5adec, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
