@@ -57,7 +57,7 @@ public class PlayerSpirntAndCrouch : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftShift) && !is_Crouching)
         {
-            playerMovement.speed = sprint_Speed;
+            playerMovement.move_Speed = sprint_Speed;
             player_Footsteps.step_Distance = sprint_Step_Distance;
             player_Footsteps.volume_Min = sprint_Volume;
             player_Footsteps.volume_Max = sprint_Volume;
@@ -65,17 +65,11 @@ public class PlayerSpirntAndCrouch : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && !is_Crouching)
         {
-            playerMovement.speed = move_Speed;
-
+            playerMovement.move_Speed = move_Speed;
             player_Footsteps.step_Distance = walk_Step_Distance; 
             player_Footsteps.volume_Min = walk_Volume_min;
             player_Footsteps.volume_Max = walk_Volume_max;
-           
-
         }
-
-
-
     }
 
     void Crouch()
@@ -86,7 +80,7 @@ public class PlayerSpirntAndCrouch : MonoBehaviour
             if (is_Crouching)
             {
                 look_Root.localPosition = new Vector3(0f, stand_Height, 0f);
-                playerMovement.speed = move_Speed;
+                playerMovement.move_Speed = move_Speed;
 
                 is_Crouching = false;
 
@@ -95,7 +89,7 @@ public class PlayerSpirntAndCrouch : MonoBehaviour
             {
                 //if we are not crouching - crouch
                  look_Root.localPosition = new Vector3(0f, crouch_Height , 0f);
-                playerMovement.speed = crouch_Speed;
+                playerMovement.move_Speed = crouch_Speed;
 
                 player_Footsteps.step_Distance = crouch_Steep_Distance;
 
@@ -103,7 +97,7 @@ public class PlayerSpirntAndCrouch : MonoBehaviour
                 player_Footsteps.volume_Min = crouch_Volume;
                 player_Footsteps.volume_Max = crouch_Volume;
 
-                is_Crouching = false;
+                is_Crouching = true;
 
             }
         }
